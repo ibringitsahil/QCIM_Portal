@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/apache-mime4j-0.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/AutoItX4Java.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/bsh-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/commons-exec-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/commons-io-2.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/commons-jxpath-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/commons-lang3-3.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/commons-logging-1.1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/cssparser-0.9.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/gson-2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/guava-15.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/guava-18.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/hamcrest-library-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/htmlunit-2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/htmlunit-core-js-2.15.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/httpclient-4.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/httpcore-4.3.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/httpmime-4.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/ini4j-0.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/jcommander-1.29.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/jetty-websocket-8.1.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/jna-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/jna-platform-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/json-20080701.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/junit-dep-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/nekohtml-1.9.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/netty-3.5.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/operadriver-1.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/phantomjsdriver-1.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/poi-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/poi-ooxml-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/poi-ooxml-schemas-3.10-FINAL-20140208.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/protobuf-java-2.4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/sac-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/saxon-8.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/SaxonLiaison.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/selenium-java-2.44.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/selenium-java-2.44.0-srcs.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/serializer-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/testng-6.8.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/testng-6.8.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/testng-xslt-maven-plugin-test-0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/xalan-2.7.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/xercesImpl-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="C:/Users/sahil.singh/Documents/Selenium Project_QCIM/Selenium Project_QCIM/QCIM_001/JarFiles/xmlbeans-2.3.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,146 @@
+<html>
+<head>
+<title>TestNG:  TestCase_017</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>TestCase_017</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Mar 16 16:58:41 IST 2016</td>
+</tr>
+<tr><td>Total time:</td><td>95 seconds (95169 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qcim.SuiteFive.Verify_EmployeeDashboard.TestCase_017()'><b>TestCase_017</b><br>Test class: com.qcim.SuiteFive.Verify_EmployeeDashboard<br>Parameters: test3@Digitalrisk.com, ***********, Int-RM_CPInternalUserReadOnly<br/>
+<a href="#Output-13927951" onClick='toggleBox("Output-13927951", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-13927951" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-13927951">
+SignIn Action is successfully performed<br/>
+ Dashboard count =276 on = Total # of Customers is grater than zero(0) 
+<br/>
+ Dashboard count =1818 on = Total # of Loans is grater than zero(0) 
+<br/>
+ Dashboard count =335120556 on = Total Estimated Owed ($) is grater than zero(0) 
+<br/>
+ Dashboard count =806 on = # of Loans > 60 Days is grater than zero(0) 
+<br/>
+ Dashboard count =643 on = # of Loans > 90 Days is grater than zero(0) 
+<br/>
+ Dashboard count =524 on = # of Loans > 120 Days is grater than zero(0) 
+<br/>
+ Dashboard count =205 on = # of Loans with Open Appeals is grater than zero(0) 
+<br/>
+Completed executing Verify_EmployeeDashboard.TestCase_017<br/>
+Test Method resides in com.qcim.SuiteFive.Verify_EmployeeDashboard<br/>
+Test Method had the following parameters : test3@Digitalrisk.com&***********&Int-RM_CPInternalUserReadOnly<br/>
+Test Status: Failed<br/>
+About to begin executing Verify_EmployeeDashboard.reporterDataResults<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: The following asserts failed:
+ Dashboard count = 107 on # of Loans &gt; 365 Days is less than or equal to zero(0) 
+,  Dashboard count = 93 on # of Loans Agreed to Repurchase is less than or equal to zero(0) 
+
+	at com.qcim.SuiteFive.Verify_EmployeeDashboard.TestCase_017(Verify_EmployeeDashboard.java:151)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace13927951", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace13927951'><pre>java.lang.AssertionError: The following asserts failed:
+ Dashboard count = 107 on # of Loans &gt; 365 Days is less than or equal to zero(0) 
+,  Dashboard count = 93 on # of Loans Agreed to Repurchase is less than or equal to zero(0) 
+
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:38)
+	at com.qcim.SuiteFive.Verify_EmployeeDashboard.TestCase_017(Verify_EmployeeDashboard.java:151)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+</pre></div></td>
+<td>76</td>
+<td>com.qcim.SuiteFive.Verify_EmployeeDashboard@2bcfcb</td></tr>
+</table><p>
+</body>
+</html>

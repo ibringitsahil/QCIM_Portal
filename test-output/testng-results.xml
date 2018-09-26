@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="53573" started-at="2017-08-22T14:54:38Z" finished-at="2017-08-22T14:55:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="53573" started-at="2017-08-22T14:54:38Z" finished-at="2017-08-22T14:55:31Z">
+      <class name="com.qcim.SuiteOne.Verify_SiteAvailability">
+        <test-method status="PASS" signature="checkCaseToRun()[pri:0, instance:com.qcim.SuiteOne.Verify_SiteAvailability@6093dd95]" name="checkCaseToRun" is-config="true" duration-ms="688" started-at="2017-08-22T20:24:38Z" finished-at="2017-08-22T20:24:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCaseToRun -->
+        <test-method status="PASS" signature="TestCase_001(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qcim.SuiteOne.Verify_SiteAvailability@6093dd95]" name="TestCase_001" duration-ms="52507" started-at="2017-08-22T20:24:38Z" data-provider="TestCase_001" finished-at="2017-08-22T20:25:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test3@Digitalrisk.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Digital1234]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Int-RM_CPInternalUserReadOnly]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase_001 -->
+        <test-method status="PASS" signature="reporterDataResults()[pri:0, instance:com.qcim.SuiteOne.Verify_SiteAvailability@6093dd95]" name="reporterDataResults" is-config="true" duration-ms="317" started-at="2017-08-22T20:25:31Z" finished-at="2017-08-22T20:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reporterDataResults -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.qcim.SuiteOne.Verify_SiteAvailability@6093dd95]" name="afterMethod" is-config="true" duration-ms="50" started-at="2017-08-22T20:25:31Z" finished-at="2017-08-22T20:25:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- com.qcim.SuiteOne.Verify_SiteAvailability -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

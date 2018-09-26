@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SuiteOne" parallel="none">
+<listeners>
+<listener class-name="com.qcim.utility.Listener"> </listener>
+</listeners>
+ 
+  <test name="TestCase_001">
+    <classes>
+      <class name="com.qcim.SuiteOne.Verify_SiteAvailability"/>
+    </classes>
+  </test> <!-- TestCase_001 -->
+  
+    <test name="TestCase_002">
+    <classes>
+      <class name="com.qcim.SuiteOne.Verify_DataasofDate"/>
+    </classes>
+  </test> <!-- TestCase_002 -->
+    
+   <test name="TestCase_003">
+    <classes>
+      <class name="com.qcim.SuiteOne.Verify_QuickReportcount"/>
+    </classes>
+  </test> <!-- TestCase_003 -->
+ 
+  
+  
+  
+
+   <test name="TestCase_004">
+    <classes>
+      <class name="com.qcim.SuiteTwo.Verify_LoansTabRecords"/>
+    </classes>
+  </test> <!-- TestCase_004 -->
+ 
+  <test name="TestCase_005">
+    <classes>
+      <class name="com.qcim.SuiteTwo.Verify_MissingDocsRecords"/>
+    </classes>
+  </test> <!-- TestCase_005 -->
+  
+   <test name="TestCase_006">
+    <classes>
+      <class name="com.qcim.SuiteTwo.Verify_IncompleteDocsRecords"/>
+    </classes>
+  </test> <!-- TestCase_006 -->
+  
+     <test name="TestCase_007">
+    <classes>
+      <class name="com.qcim.SuiteTwo.Verify_AppealsTabRecords"/>
+    </classes>
+  </test> <!-- TestCase_007 -->
+
+  
+
+    <test name="TestCase_008">
+    <classes>
+      <class name="com.qcim.SuiteThree.Verify_ColMissDocDesc"/>
+    </classes>
+  </test> <!-- TestCase_008 -->
+    <test name="TestCase_010">
+    <classes>
+      <class name="com.qcim.SuiteThree.Verify_ColIncomDocDesc"/>
+    </classes>
+  </test> <!-- TestCase_010 -->
+     
+    
+
+ 
+  <test name="TestCase_009">
+    <classes>
+      <class name="com.qcim.SuiteFour.Verify_LoansTab_1stFileReqDate"/>
+    </classes>
+  </test> <!-- TestCase_009 -->
+   
+  <test name="TestCase_011">
+    <classes>
+      <class name="com.qcim.SuiteFour.Verify_DocUploadtab"/>
+    </classes>
+  </test> <!-- TestCase_011 -->
+  <test name="TestCase_012">
+    <classes>
+      <class name="com.qcim.SuiteFour.Verify_MissingDateOrdered"/>
+    </classes>
+  </test> <!-- TestCase_012 -->
+  
+    <test name="TestCase_013">
+    <classes>
+      <class name="com.qcim.SuiteFour.Verify_IncompleteDateOrdered"/>
+    </classes>
+  </test> <!-- TestCase_013 -->
+  
+   
+  
+  
+  </suite> <!-- SuiteOne -->
